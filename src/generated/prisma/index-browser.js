@@ -134,6 +134,128 @@ exports.Prisma.PostScalarFieldEnum = {
   authorId: 'authorId'
 };
 
+exports.Prisma.MachineBasicSpecScalarFieldEnum = {
+  id: 'id',
+  machineManufacturerId: 'machineManufacturerId',
+  machineManufacturerName: 'machineManufacturerName',
+  machineName: 'machineName',
+  machineType: 'machineType',
+  isDeleted: 'isDeleted',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt',
+  deletedAt: 'deletedAt',
+  kuwaeSpecId: 'kuwaeSpecId',
+  detailSpecId: 'detailSpecId',
+  filmSpecId: 'filmSpecId',
+  ruleSpecId: 'ruleSpecId',
+  sheetBaseSpecId: 'sheetBaseSpecId',
+  sutebaSpecId: 'sutebaSpecId',
+  spongeCorkSpecId: 'spongeCorkSpecId',
+  centerMetalSpecId: 'centerMetalSpecId',
+  nickSpecId: 'nickSpecId',
+  ruleThicknessSpecId: 'ruleThicknessSpecId',
+  remarkSpecId: 'remarkSpecId'
+};
+
+exports.Prisma.KuwaeSpecScalarFieldEnum = {
+  id: 'id',
+  die_kuwae: 'die_kuwae',
+  kuwae_cutting_thickness: 'kuwae_cutting_thickness',
+  kuwae_cutting_width: 'kuwae_cutting_width',
+  kuwae_angle: 'kuwae_angle',
+  back_kuwae_angle: 'back_kuwae_angle'
+};
+
+exports.Prisma.DetailSpecScalarFieldEnum = {
+  id: 'id',
+  mounting_hole: 'mounting_hole',
+  nail_nut: 'nail_nut',
+  one_touch_bar: 'one_touch_bar',
+  stripper: 'stripper',
+  blanking: 'blanking',
+  under_pin: 'under_pin',
+  cad_plate: 'cad_plate',
+  cad_plate_remark: 'cad_plate_remark'
+};
+
+exports.Prisma.FilmSpecScalarFieldEnum = {
+  id: 'id',
+  film: 'film',
+  film_thickness: 'film_thickness'
+};
+
+exports.Prisma.RuleSpecScalarFieldEnum = {
+  id: 'id',
+  balance_rule: 'balance_rule',
+  inside_sheet_rule: 'inside_sheet_rule'
+};
+
+exports.Prisma.SheetBaseSpecScalarFieldEnum = {
+  id: 'id',
+  base_thickness: 'base_thickness',
+  base_thickness_remark: 'base_thickness_remark',
+  max_sheet_x: 'max_sheet_x',
+  max_sheet_y: 'max_sheet_y',
+  min_sheet_x: 'min_sheet_x',
+  min_sheet_y: 'min_sheet_y',
+  max_base_x: 'max_base_x',
+  max_base_y: 'max_base_y',
+  min_base_x: 'min_base_x',
+  min_base_y: 'min_base_y'
+};
+
+exports.Prisma.SutebaSpecScalarFieldEnum = {
+  id: 'id',
+  suteba_pitch: 'suteba_pitch'
+};
+
+exports.Prisma.SpongeCorkSpecScalarFieldEnum = {
+  id: 'id',
+  sponge: 'sponge',
+  cork: 'cork',
+  cork_crushing: 'cork_crushing',
+  crushing_remark: 'crushing_remark'
+};
+
+exports.Prisma.CenterMetalSpecScalarFieldEnum = {
+  id: 'id',
+  center_metal: 'center_metal',
+  center_metal_kind: 'center_metal_kind',
+  center_metal_center: 'center_metal_center',
+  center_metal_right: 'center_metal_right',
+  center_metal_left: 'center_metal_left'
+};
+
+exports.Prisma.NickSpecScalarFieldEnum = {
+  id: 'id',
+  nick: 'nick',
+  nick_remark_1: 'nick_remark_1',
+  nick_remark_2: 'nick_remark_2',
+  nick_remark_3: 'nick_remark_3'
+};
+
+exports.Prisma.RuleThicknessSpecScalarFieldEnum = {
+  id: 'id',
+  ef_rule: 'ef_rule',
+  bf_rule: 'bf_rule',
+  af_rule: 'af_rule',
+  wf_rule: 'wf_rule',
+  gf_rule: 'gf_rule',
+  ff_rule: 'ff_rule',
+  cf_rule: 'cf_rule',
+  paper_350_rule: 'paper_350_rule'
+};
+
+exports.Prisma.RemarkSpecScalarFieldEnum = {
+  id: 'id',
+  remark_1: 'remark_1',
+  remark_2: 'remark_2',
+  remark_3: 'remark_3',
+  stripper_first_suteba: 'stripper_first_suteba',
+  air_hammer_first_suteba: 'air_hammer_first_suteba',
+  ueda_first_suteba: 'ueda_first_suteba'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -152,7 +274,19 @@ exports.Prisma.NullsOrder = {
 
 exports.Prisma.ModelName = {
   User: 'User',
-  Post: 'Post'
+  Post: 'Post',
+  MachineBasicSpec: 'MachineBasicSpec',
+  KuwaeSpec: 'KuwaeSpec',
+  DetailSpec: 'DetailSpec',
+  FilmSpec: 'FilmSpec',
+  RuleSpec: 'RuleSpec',
+  SheetBaseSpec: 'SheetBaseSpec',
+  SutebaSpec: 'SutebaSpec',
+  SpongeCorkSpec: 'SpongeCorkSpec',
+  CenterMetalSpec: 'CenterMetalSpec',
+  NickSpec: 'NickSpec',
+  RuleThicknessSpec: 'RuleThicknessSpec',
+  RemarkSpec: 'RemarkSpec'
 };
 
 /**

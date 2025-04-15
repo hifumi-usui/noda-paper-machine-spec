@@ -1,26 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
 import { Button, Stack, TextField, Typography } from "@mui/material";
+import { loginWithEmailAndPassword } from "@/lib/auth/login";
+import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const router = useRouter();
 
   const handleLogin = async () => {
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
+    const { error } = await loginWithEmailAndPassword(email, password);
     if (error) {
       setError(
         "ログインに失敗しました。メールアドレスまたはパスワードが正しいか確認してください。"
       );
+      console.error("Login error:", error);
     } else {
       setError(null);
-      alert("ログイン成功！");
+      router.push("/top");
     }
   };
 

@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
   output   = "../src/generated/prisma"
@@ -31,4 +25,150 @@ model Post {
   published Boolean  @default(false)
   author    User?    @relation(fields: [authorId], references: [id])
   authorId  Int?
+}
+
+model MachineBasicSpec {
+  id                      Int       @id @default(autoincrement())
+  machineManufacturerId   String?   @map("machine_manufacturer_id")
+  machineManufacturerName String?   @map("machine_manufacturer_name")
+  machineName             String?   @map("machine_name")
+  machineType             String?   @map("machine_type")
+  isDeleted               Boolean   @default(false)
+  createdAt               DateTime  @default(now())
+  updatedAt               DateTime  @updatedAt
+  deletedAt               DateTime? @map("deleted_at")
+
+  // リレーション
+  kuwaeSpec           KuwaeSpec?         @relation("kuwae_spec", fields: [kuwaeSpecId], references: [id])
+  detailSpec          DetailSpec?        @relation("detail_spec", fields: [detailSpecId], references: [id])
+  filmSpec            FilmSpec?          @relation("film_spec", fields: [filmSpecId], references: [id])
+  ruleSpec            RuleSpec?          @relation("rule_spec", fields: [ruleSpecId], references: [id])
+  sheetBaseSpec       SheetBaseSpec?     @relation("sheet_base_spec", fields: [sheetBaseSpecId], references: [id])
+  sutebaSpec          SutebaSpec?        @relation("suteba_spec", fields: [sutebaSpecId], references: [id])
+  spongeCorkSpec      SpongeCorkSpec?    @relation("sponge_cork_spec", fields: [spongeCorkSpecId], references: [id])
+  centerMetalSpec     CenterMetalSpec?   @relation("center_metal_spec", fields: [centerMetalSpecId], references: [id])
+  nickSpec            NickSpec?          @relation("nick_spec", fields: [nickSpecId], references: [id])
+  ruleThicknessSpec   RuleThicknessSpec? @relation("rule_thickness_spec", fields: [ruleThicknessSpecId], references: [id])
+  remarkSpec          RemarkSpec?        @relation("remark_spec", fields: [remarkSpecId], references: [id])
+  kuwaeSpecId         Int?               @unique
+  detailSpecId        Int?               @unique
+  filmSpecId          Int?               @unique
+  ruleSpecId          Int?               @unique
+  sheetBaseSpecId     Int?               @unique
+  sutebaSpecId        Int?               @unique
+  spongeCorkSpecId    Int?               @unique
+  centerMetalSpecId   Int?               @unique
+  nickSpecId          Int?               @unique
+  ruleThicknessSpecId Int?               @unique
+  remarkSpecId        Int?               @unique
+}
+
+model KuwaeSpec {
+  id                      Int               @id @default(autoincrement())
+  die_kuwae               String?           @map("die_kuwae")
+  kuwae_cutting_thickness String?           @map("kuwae_cutting_thickness")
+  kuwae_cutting_width     String?           @map("kuwae_cutting_width")
+  kuwae_angle             String?           @map("kuwae_angle")
+  back_kuwae_angle        String?           @map("back_kuwae_angle")
+  machineBasicSpec        MachineBasicSpec? @relation("kuwae_spec")
+}
+
+model DetailSpec {
+  id               Int               @id @default(autoincrement())
+  mounting_hole    String?           @map("mounting_hole")
+  nail_nut         String?           @map("nail_nut")
+  one_touch_bar    String?           @map("one_touch_bar")
+  stripper         String?           @map("stripper")
+  blanking         String?           @map("blanking")
+  under_pin        String?           @map("under_pin")
+  cad_plate        String?           @map("cad_plate")
+  cad_plate_remark String?           @map("cad_plate_remark")
+  machineBasicSpec MachineBasicSpec? @relation("detail_spec")
+}
+
+model FilmSpec {
+  id               Int               @id @default(autoincrement())
+  film             String?           @map("film")
+  film_thickness   Float?            @map("film_thickness")
+  machineBasicSpec MachineBasicSpec? @relation("film_spec")
+}
+
+model RuleSpec {
+  id                Int               @id @default(autoincrement())
+  balance_rule      String?           @map("balance_rule")
+  inside_sheet_rule String?           @map("inside_sheet_rule")
+  machineBasicSpec  MachineBasicSpec? @relation("rule_spec")
+}
+
+model SheetBaseSpec {
+  id                    Int               @id @default(autoincrement())
+  base_thickness        Float?            @map("base_thickness")
+  base_thickness_remark String?           @map("base_thickness_remark")
+  max_sheet_x           Float?            @map("max_sheet_x")
+  max_sheet_y           Float?            @map("max_sheet_y")
+  min_sheet_x           Float?            @map("min_sheet_x")
+  min_sheet_y           Float?            @map("min_sheet_y")
+  max_base_x            Float?            @map("max_base_x")
+  max_base_y            Float?            @map("max_base_y")
+  min_base_x            Float?            @map("min_base_x")
+  min_base_y            Float?            @map("min_base_y")
+  machineBasicSpec      MachineBasicSpec? @relation("sheet_base_spec")
+}
+
+model SutebaSpec {
+  id               Int               @id @default(autoincrement())
+  suteba_pitch     Float?            @map("suteba_pitch")
+  machineBasicSpec MachineBasicSpec? @relation("suteba_spec")
+}
+
+model SpongeCorkSpec {
+  id               Int               @id @default(autoincrement())
+  sponge           String?           @map("sponge")
+  cork             String?           @map("cork")
+  cork_crushing    String?           @map("cork_crushing")
+  crushing_remark  String?           @map("crushing_remark")
+  machineBasicSpec MachineBasicSpec? @relation("sponge_cork_spec")
+}
+
+model CenterMetalSpec {
+  id                  Int               @id @default(autoincrement())
+  center_metal        String?           @map("center_metal")
+  center_metal_kind   String?           @map("center_metal_kind")
+  center_metal_center String?           @map("center_metal_center")
+  center_metal_right  String?           @map("center_metal_right")
+  center_metal_left   String?           @map("center_metal_left")
+  machineBasicSpec    MachineBasicSpec? @relation("center_metal_spec")
+}
+
+model NickSpec {
+  id               Int               @id @default(autoincrement())
+  nick             String?           @map("nick")
+  nick_remark_1    String?           @map("nick_remark_1")
+  nick_remark_2    String?           @map("nick_remark_2")
+  nick_remark_3    String?           @map("nick_remark_3")
+  machineBasicSpec MachineBasicSpec? @relation("nick_spec")
+}
+
+model RuleThicknessSpec {
+  id               Int               @id @default(autoincrement())
+  ef_rule          String?           @map("ef_rule")
+  bf_rule          String?           @map("bf_rule")
+  af_rule          String?           @map("af_rule")
+  wf_rule          String?           @map("wf_rule")
+  gf_rule          String?           @map("gf_rule")
+  ff_rule          String?           @map("ff_rule")
+  cf_rule          String?           @map("cf_rule")
+  paper_350_rule   String?           @map("paper_350_rule")
+  machineBasicSpec MachineBasicSpec? @relation("rule_thickness_spec")
+}
+
+model RemarkSpec {
+  id                      Int               @id @default(autoincrement())
+  remark_1                String?           @map("remark_1")
+  remark_2                String?           @map("remark_2")
+  remark_3                String?           @map("remark_3")
+  stripper_first_suteba   String?           @map("stripper_first_suteba")
+  air_hammer_first_suteba String?           @map("air_hammer_first_suteba")
+  ueda_first_suteba       String?           @map("ueda_first_suteba")
+  machineBasicSpec        MachineBasicSpec? @relation("remark_spec")
 }
