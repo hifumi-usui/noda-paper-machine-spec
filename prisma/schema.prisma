@@ -4,8 +4,9 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model User {
@@ -23,44 +24,42 @@ model Post {
   title     String
   content   String?
   published Boolean  @default(false)
-  author    User?    @relation(fields: [authorId], references: [id])
   authorId  Int?
+  author    User?    @relation(fields: [authorId], references: [id])
 }
 
 model MachineBasicSpec {
-  id                      Int       @id @default(autoincrement())
-  machineManufacturerId   String?   @map("machine_manufacturer_id")
-  machineManufacturerName String?   @map("machine_manufacturer_name")
-  machineName             String?   @map("machine_name")
-  machineType             String?   @map("machine_type")
-  isDeleted               Boolean   @default(false)
-  createdAt               DateTime  @default(now())
-  updatedAt               DateTime  @updatedAt
-  deletedAt               DateTime? @map("deleted_at")
-
-  // リレーション
-  kuwaeSpec           KuwaeSpec?         @relation("kuwae_spec", fields: [kuwaeSpecId], references: [id])
-  detailSpec          DetailSpec?        @relation("detail_spec", fields: [detailSpecId], references: [id])
-  filmSpec            FilmSpec?          @relation("film_spec", fields: [filmSpecId], references: [id])
-  ruleSpec            RuleSpec?          @relation("rule_spec", fields: [ruleSpecId], references: [id])
-  sheetBaseSpec       SheetBaseSpec?     @relation("sheet_base_spec", fields: [sheetBaseSpecId], references: [id])
-  sutebaSpec          SutebaSpec?        @relation("suteba_spec", fields: [sutebaSpecId], references: [id])
-  spongeCorkSpec      SpongeCorkSpec?    @relation("sponge_cork_spec", fields: [spongeCorkSpecId], references: [id])
-  centerMetalSpec     CenterMetalSpec?   @relation("center_metal_spec", fields: [centerMetalSpecId], references: [id])
-  nickSpec            NickSpec?          @relation("nick_spec", fields: [nickSpecId], references: [id])
-  ruleThicknessSpec   RuleThicknessSpec? @relation("rule_thickness_spec", fields: [ruleThicknessSpecId], references: [id])
-  remarkSpec          RemarkSpec?        @relation("remark_spec", fields: [remarkSpecId], references: [id])
-  kuwaeSpecId         Int?               @unique
-  detailSpecId        Int?               @unique
-  filmSpecId          Int?               @unique
-  ruleSpecId          Int?               @unique
-  sheetBaseSpecId     Int?               @unique
-  sutebaSpecId        Int?               @unique
-  spongeCorkSpecId    Int?               @unique
-  centerMetalSpecId   Int?               @unique
-  nickSpecId          Int?               @unique
-  ruleThicknessSpecId Int?               @unique
-  remarkSpecId        Int?               @unique
+  id                      Int                @id @default(autoincrement())
+  machineManufacturerId   String?            @map("machine_manufacturer_id")
+  machineManufacturerName String?            @map("machine_manufacturer_name")
+  machineName             String?            @map("machine_name")
+  machineType             String?            @map("machine_type")
+  isDeleted               Boolean            @default(false)
+  createdAt               DateTime           @default(now())
+  updatedAt               DateTime           @updatedAt
+  deletedAt               DateTime?          @map("deleted_at")
+  kuwaeSpecId             Int?               @unique
+  detailSpecId            Int?               @unique
+  filmSpecId              Int?               @unique
+  ruleSpecId              Int?               @unique
+  sheetBaseSpecId         Int?               @unique
+  sutebaSpecId            Int?               @unique
+  spongeCorkSpecId        Int?               @unique
+  centerMetalSpecId       Int?               @unique
+  nickSpecId              Int?               @unique
+  ruleThicknessSpecId     Int?               @unique
+  remarkSpecId            Int?               @unique
+  centerMetalSpec         CenterMetalSpec?   @relation("center_metal_spec", fields: [centerMetalSpecId], references: [id])
+  detailSpec              DetailSpec?        @relation("detail_spec", fields: [detailSpecId], references: [id])
+  filmSpec                FilmSpec?          @relation("film_spec", fields: [filmSpecId], references: [id])
+  kuwaeSpec               KuwaeSpec?         @relation("kuwae_spec", fields: [kuwaeSpecId], references: [id])
+  nickSpec                NickSpec?          @relation("nick_spec", fields: [nickSpecId], references: [id])
+  remarkSpec              RemarkSpec?        @relation("remark_spec", fields: [remarkSpecId], references: [id])
+  ruleSpec                RuleSpec?          @relation("rule_spec", fields: [ruleSpecId], references: [id])
+  ruleThicknessSpec       RuleThicknessSpec? @relation("rule_thickness_spec", fields: [ruleThicknessSpecId], references: [id])
+  sheetBaseSpec           SheetBaseSpec?     @relation("sheet_base_spec", fields: [sheetBaseSpecId], references: [id])
+  spongeCorkSpec          SpongeCorkSpec?    @relation("sponge_cork_spec", fields: [spongeCorkSpecId], references: [id])
+  sutebaSpec              SutebaSpec?        @relation("suteba_spec", fields: [sutebaSpecId], references: [id])
 }
 
 model KuwaeSpec {

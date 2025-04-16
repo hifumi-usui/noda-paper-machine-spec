@@ -4676,17 +4676,17 @@ export namespace Prisma {
     nickSpecId?: boolean
     ruleThicknessSpecId?: boolean
     remarkSpecId?: boolean
-    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
+    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
     detailSpec?: boolean | MachineBasicSpec$detailSpecArgs<ExtArgs>
     filmSpec?: boolean | MachineBasicSpec$filmSpecArgs<ExtArgs>
-    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
-    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
-    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
-    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
-    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
+    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
     nickSpec?: boolean | MachineBasicSpec$nickSpecArgs<ExtArgs>
-    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
     remarkSpec?: boolean | MachineBasicSpec$remarkSpecArgs<ExtArgs>
+    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
+    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
+    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
+    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
+    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
   }, ExtArgs["result"]["machineBasicSpec"]>
 
   export type MachineBasicSpecSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
@@ -4710,17 +4710,17 @@ export namespace Prisma {
     nickSpecId?: boolean
     ruleThicknessSpecId?: boolean
     remarkSpecId?: boolean
-    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
+    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
     detailSpec?: boolean | MachineBasicSpec$detailSpecArgs<ExtArgs>
     filmSpec?: boolean | MachineBasicSpec$filmSpecArgs<ExtArgs>
-    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
-    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
-    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
-    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
-    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
+    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
     nickSpec?: boolean | MachineBasicSpec$nickSpecArgs<ExtArgs>
-    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
     remarkSpec?: boolean | MachineBasicSpec$remarkSpecArgs<ExtArgs>
+    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
+    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
+    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
+    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
+    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
   }, ExtArgs["result"]["machineBasicSpec"]>
 
   export type MachineBasicSpecSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
@@ -4744,17 +4744,17 @@ export namespace Prisma {
     nickSpecId?: boolean
     ruleThicknessSpecId?: boolean
     remarkSpecId?: boolean
-    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
+    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
     detailSpec?: boolean | MachineBasicSpec$detailSpecArgs<ExtArgs>
     filmSpec?: boolean | MachineBasicSpec$filmSpecArgs<ExtArgs>
-    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
-    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
-    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
-    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
-    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
+    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
     nickSpec?: boolean | MachineBasicSpec$nickSpecArgs<ExtArgs>
-    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
     remarkSpec?: boolean | MachineBasicSpec$remarkSpecArgs<ExtArgs>
+    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
+    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
+    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
+    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
+    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
   }, ExtArgs["result"]["machineBasicSpec"]>
 
   export type MachineBasicSpecSelectScalar = {
@@ -4782,59 +4782,59 @@ export namespace Prisma {
 
   export type MachineBasicSpecOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "machineManufacturerId" | "machineManufacturerName" | "machineName" | "machineType" | "isDeleted" | "createdAt" | "updatedAt" | "deletedAt" | "kuwaeSpecId" | "detailSpecId" | "filmSpecId" | "ruleSpecId" | "sheetBaseSpecId" | "sutebaSpecId" | "spongeCorkSpecId" | "centerMetalSpecId" | "nickSpecId" | "ruleThicknessSpecId" | "remarkSpecId", ExtArgs["result"]["machineBasicSpec"]>
   export type MachineBasicSpecInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
+    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
     detailSpec?: boolean | MachineBasicSpec$detailSpecArgs<ExtArgs>
     filmSpec?: boolean | MachineBasicSpec$filmSpecArgs<ExtArgs>
-    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
-    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
-    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
-    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
-    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
+    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
     nickSpec?: boolean | MachineBasicSpec$nickSpecArgs<ExtArgs>
-    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
     remarkSpec?: boolean | MachineBasicSpec$remarkSpecArgs<ExtArgs>
+    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
+    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
+    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
+    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
+    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
   }
   export type MachineBasicSpecIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
+    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
     detailSpec?: boolean | MachineBasicSpec$detailSpecArgs<ExtArgs>
     filmSpec?: boolean | MachineBasicSpec$filmSpecArgs<ExtArgs>
-    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
-    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
-    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
-    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
-    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
+    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
     nickSpec?: boolean | MachineBasicSpec$nickSpecArgs<ExtArgs>
-    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
     remarkSpec?: boolean | MachineBasicSpec$remarkSpecArgs<ExtArgs>
+    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
+    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
+    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
+    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
+    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
   }
   export type MachineBasicSpecIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
+    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
     detailSpec?: boolean | MachineBasicSpec$detailSpecArgs<ExtArgs>
     filmSpec?: boolean | MachineBasicSpec$filmSpecArgs<ExtArgs>
-    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
-    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
-    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
-    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
-    centerMetalSpec?: boolean | MachineBasicSpec$centerMetalSpecArgs<ExtArgs>
+    kuwaeSpec?: boolean | MachineBasicSpec$kuwaeSpecArgs<ExtArgs>
     nickSpec?: boolean | MachineBasicSpec$nickSpecArgs<ExtArgs>
-    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
     remarkSpec?: boolean | MachineBasicSpec$remarkSpecArgs<ExtArgs>
+    ruleSpec?: boolean | MachineBasicSpec$ruleSpecArgs<ExtArgs>
+    ruleThicknessSpec?: boolean | MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>
+    sheetBaseSpec?: boolean | MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>
+    spongeCorkSpec?: boolean | MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>
+    sutebaSpec?: boolean | MachineBasicSpec$sutebaSpecArgs<ExtArgs>
   }
 
   export type $MachineBasicSpecPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "MachineBasicSpec"
     objects: {
-      kuwaeSpec: Prisma.$KuwaeSpecPayload<ExtArgs> | null
+      centerMetalSpec: Prisma.$CenterMetalSpecPayload<ExtArgs> | null
       detailSpec: Prisma.$DetailSpecPayload<ExtArgs> | null
       filmSpec: Prisma.$FilmSpecPayload<ExtArgs> | null
-      ruleSpec: Prisma.$RuleSpecPayload<ExtArgs> | null
-      sheetBaseSpec: Prisma.$SheetBaseSpecPayload<ExtArgs> | null
-      sutebaSpec: Prisma.$SutebaSpecPayload<ExtArgs> | null
-      spongeCorkSpec: Prisma.$SpongeCorkSpecPayload<ExtArgs> | null
-      centerMetalSpec: Prisma.$CenterMetalSpecPayload<ExtArgs> | null
+      kuwaeSpec: Prisma.$KuwaeSpecPayload<ExtArgs> | null
       nickSpec: Prisma.$NickSpecPayload<ExtArgs> | null
-      ruleThicknessSpec: Prisma.$RuleThicknessSpecPayload<ExtArgs> | null
       remarkSpec: Prisma.$RemarkSpecPayload<ExtArgs> | null
+      ruleSpec: Prisma.$RuleSpecPayload<ExtArgs> | null
+      ruleThicknessSpec: Prisma.$RuleThicknessSpecPayload<ExtArgs> | null
+      sheetBaseSpec: Prisma.$SheetBaseSpecPayload<ExtArgs> | null
+      spongeCorkSpec: Prisma.$SpongeCorkSpecPayload<ExtArgs> | null
+      sutebaSpec: Prisma.$SutebaSpecPayload<ExtArgs> | null
     }
     scalars: $Extensions.GetPayloadResult<{
       id: number
@@ -5251,17 +5251,17 @@ export namespace Prisma {
    */
   export interface Prisma__MachineBasicSpecClient<T, Null = never, ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
     readonly [Symbol.toStringTag]: "PrismaPromise"
-    kuwaeSpec<T extends MachineBasicSpec$kuwaeSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$kuwaeSpecArgs<ExtArgs>>): Prisma__KuwaeSpecClient<$Result.GetResult<Prisma.$KuwaeSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    centerMetalSpec<T extends MachineBasicSpec$centerMetalSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$centerMetalSpecArgs<ExtArgs>>): Prisma__CenterMetalSpecClient<$Result.GetResult<Prisma.$CenterMetalSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
     detailSpec<T extends MachineBasicSpec$detailSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$detailSpecArgs<ExtArgs>>): Prisma__DetailSpecClient<$Result.GetResult<Prisma.$DetailSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
     filmSpec<T extends MachineBasicSpec$filmSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$filmSpecArgs<ExtArgs>>): Prisma__FilmSpecClient<$Result.GetResult<Prisma.$FilmSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
-    ruleSpec<T extends MachineBasicSpec$ruleSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$ruleSpecArgs<ExtArgs>>): Prisma__RuleSpecClient<$Result.GetResult<Prisma.$RuleSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
-    sheetBaseSpec<T extends MachineBasicSpec$sheetBaseSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>>): Prisma__SheetBaseSpecClient<$Result.GetResult<Prisma.$SheetBaseSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
-    sutebaSpec<T extends MachineBasicSpec$sutebaSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$sutebaSpecArgs<ExtArgs>>): Prisma__SutebaSpecClient<$Result.GetResult<Prisma.$SutebaSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
-    spongeCorkSpec<T extends MachineBasicSpec$spongeCorkSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>>): Prisma__SpongeCorkSpecClient<$Result.GetResult<Prisma.$SpongeCorkSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
-    centerMetalSpec<T extends MachineBasicSpec$centerMetalSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$centerMetalSpecArgs<ExtArgs>>): Prisma__CenterMetalSpecClient<$Result.GetResult<Prisma.$CenterMetalSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    kuwaeSpec<T extends MachineBasicSpec$kuwaeSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$kuwaeSpecArgs<ExtArgs>>): Prisma__KuwaeSpecClient<$Result.GetResult<Prisma.$KuwaeSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
     nickSpec<T extends MachineBasicSpec$nickSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$nickSpecArgs<ExtArgs>>): Prisma__NickSpecClient<$Result.GetResult<Prisma.$NickSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
-    ruleThicknessSpec<T extends MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>>): Prisma__RuleThicknessSpecClient<$Result.GetResult<Prisma.$RuleThicknessSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
     remarkSpec<T extends MachineBasicSpec$remarkSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$remarkSpecArgs<ExtArgs>>): Prisma__RemarkSpecClient<$Result.GetResult<Prisma.$RemarkSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    ruleSpec<T extends MachineBasicSpec$ruleSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$ruleSpecArgs<ExtArgs>>): Prisma__RuleSpecClient<$Result.GetResult<Prisma.$RuleSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    ruleThicknessSpec<T extends MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs>>): Prisma__RuleThicknessSpecClient<$Result.GetResult<Prisma.$RuleThicknessSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    sheetBaseSpec<T extends MachineBasicSpec$sheetBaseSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$sheetBaseSpecArgs<ExtArgs>>): Prisma__SheetBaseSpecClient<$Result.GetResult<Prisma.$SheetBaseSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    spongeCorkSpec<T extends MachineBasicSpec$spongeCorkSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$spongeCorkSpecArgs<ExtArgs>>): Prisma__SpongeCorkSpecClient<$Result.GetResult<Prisma.$SpongeCorkSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+    sutebaSpec<T extends MachineBasicSpec$sutebaSpecArgs<ExtArgs> = {}>(args?: Subset<T, MachineBasicSpec$sutebaSpecArgs<ExtArgs>>): Prisma__SutebaSpecClient<$Result.GetResult<Prisma.$SutebaSpecPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
     /**
      * Attaches callbacks for the resolution and/or rejection of the Promise.
      * @param onfulfilled The callback to execute when the Promise is resolved.
@@ -5707,22 +5707,22 @@ export namespace Prisma {
   }
 
   /**
-   * MachineBasicSpec.kuwaeSpec
+   * MachineBasicSpec.centerMetalSpec
    */
-  export type MachineBasicSpec$kuwaeSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+  export type MachineBasicSpec$centerMetalSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     /**
-     * Select specific fields to fetch from the KuwaeSpec
+     * Select specific fields to fetch from the CenterMetalSpec
      */
-    select?: KuwaeSpecSelect<ExtArgs> | null
+    select?: CenterMetalSpecSelect<ExtArgs> | null
     /**
-     * Omit specific fields from the KuwaeSpec
+     * Omit specific fields from the CenterMetalSpec
      */
-    omit?: KuwaeSpecOmit<ExtArgs> | null
+    omit?: CenterMetalSpecOmit<ExtArgs> | null
     /**
      * Choose, which related nodes to fetch as well
      */
-    include?: KuwaeSpecInclude<ExtArgs> | null
-    where?: KuwaeSpecWhereInput
+    include?: CenterMetalSpecInclude<ExtArgs> | null
+    where?: CenterMetalSpecWhereInput
   }
 
   /**
@@ -5764,98 +5764,22 @@ export namespace Prisma {
   }
 
   /**
-   * MachineBasicSpec.ruleSpec
+   * MachineBasicSpec.kuwaeSpec
    */
-  export type MachineBasicSpec$ruleSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+  export type MachineBasicSpec$kuwaeSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     /**
-     * Select specific fields to fetch from the RuleSpec
+     * Select specific fields to fetch from the KuwaeSpec
      */
-    select?: RuleSpecSelect<ExtArgs> | null
+    select?: KuwaeSpecSelect<ExtArgs> | null
     /**
-     * Omit specific fields from the RuleSpec
+     * Omit specific fields from the KuwaeSpec
      */
-    omit?: RuleSpecOmit<ExtArgs> | null
+    omit?: KuwaeSpecOmit<ExtArgs> | null
     /**
      * Choose, which related nodes to fetch as well
      */
-    include?: RuleSpecInclude<ExtArgs> | null
-    where?: RuleSpecWhereInput
-  }
-
-  /**
-   * MachineBasicSpec.sheetBaseSpec
-   */
-  export type MachineBasicSpec$sheetBaseSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    /**
-     * Select specific fields to fetch from the SheetBaseSpec
-     */
-    select?: SheetBaseSpecSelect<ExtArgs> | null
-    /**
-     * Omit specific fields from the SheetBaseSpec
-     */
-    omit?: SheetBaseSpecOmit<ExtArgs> | null
-    /**
-     * Choose, which related nodes to fetch as well
-     */
-    include?: SheetBaseSpecInclude<ExtArgs> | null
-    where?: SheetBaseSpecWhereInput
-  }
-
-  /**
-   * MachineBasicSpec.sutebaSpec
-   */
-  export type MachineBasicSpec$sutebaSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    /**
-     * Select specific fields to fetch from the SutebaSpec
-     */
-    select?: SutebaSpecSelect<ExtArgs> | null
-    /**
-     * Omit specific fields from the SutebaSpec
-     */
-    omit?: SutebaSpecOmit<ExtArgs> | null
-    /**
-     * Choose, which related nodes to fetch as well
-     */
-    include?: SutebaSpecInclude<ExtArgs> | null
-    where?: SutebaSpecWhereInput
-  }
-
-  /**
-   * MachineBasicSpec.spongeCorkSpec
-   */
-  export type MachineBasicSpec$spongeCorkSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    /**
-     * Select specific fields to fetch from the SpongeCorkSpec
-     */
-    select?: SpongeCorkSpecSelect<ExtArgs> | null
-    /**
-     * Omit specific fields from the SpongeCorkSpec
-     */
-    omit?: SpongeCorkSpecOmit<ExtArgs> | null
-    /**
-     * Choose, which related nodes to fetch as well
-     */
-    include?: SpongeCorkSpecInclude<ExtArgs> | null
-    where?: SpongeCorkSpecWhereInput
-  }
-
-  /**
-   * MachineBasicSpec.centerMetalSpec
-   */
-  export type MachineBasicSpec$centerMetalSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
-    /**
-     * Select specific fields to fetch from the CenterMetalSpec
-     */
-    select?: CenterMetalSpecSelect<ExtArgs> | null
-    /**
-     * Omit specific fields from the CenterMetalSpec
-     */
-    omit?: CenterMetalSpecOmit<ExtArgs> | null
-    /**
-     * Choose, which related nodes to fetch as well
-     */
-    include?: CenterMetalSpecInclude<ExtArgs> | null
-    where?: CenterMetalSpecWhereInput
+    include?: KuwaeSpecInclude<ExtArgs> | null
+    where?: KuwaeSpecWhereInput
   }
 
   /**
@@ -5878,6 +5802,44 @@ export namespace Prisma {
   }
 
   /**
+   * MachineBasicSpec.remarkSpec
+   */
+  export type MachineBasicSpec$remarkSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the RemarkSpec
+     */
+    select?: RemarkSpecSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the RemarkSpec
+     */
+    omit?: RemarkSpecOmit<ExtArgs> | null
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: RemarkSpecInclude<ExtArgs> | null
+    where?: RemarkSpecWhereInput
+  }
+
+  /**
+   * MachineBasicSpec.ruleSpec
+   */
+  export type MachineBasicSpec$ruleSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the RuleSpec
+     */
+    select?: RuleSpecSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the RuleSpec
+     */
+    omit?: RuleSpecOmit<ExtArgs> | null
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: RuleSpecInclude<ExtArgs> | null
+    where?: RuleSpecWhereInput
+  }
+
+  /**
    * MachineBasicSpec.ruleThicknessSpec
    */
   export type MachineBasicSpec$ruleThicknessSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -5897,22 +5859,60 @@ export namespace Prisma {
   }
 
   /**
-   * MachineBasicSpec.remarkSpec
+   * MachineBasicSpec.sheetBaseSpec
    */
-  export type MachineBasicSpec$remarkSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+  export type MachineBasicSpec$sheetBaseSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     /**
-     * Select specific fields to fetch from the RemarkSpec
+     * Select specific fields to fetch from the SheetBaseSpec
      */
-    select?: RemarkSpecSelect<ExtArgs> | null
+    select?: SheetBaseSpecSelect<ExtArgs> | null
     /**
-     * Omit specific fields from the RemarkSpec
+     * Omit specific fields from the SheetBaseSpec
      */
-    omit?: RemarkSpecOmit<ExtArgs> | null
+    omit?: SheetBaseSpecOmit<ExtArgs> | null
     /**
      * Choose, which related nodes to fetch as well
      */
-    include?: RemarkSpecInclude<ExtArgs> | null
-    where?: RemarkSpecWhereInput
+    include?: SheetBaseSpecInclude<ExtArgs> | null
+    where?: SheetBaseSpecWhereInput
+  }
+
+  /**
+   * MachineBasicSpec.spongeCorkSpec
+   */
+  export type MachineBasicSpec$spongeCorkSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the SpongeCorkSpec
+     */
+    select?: SpongeCorkSpecSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the SpongeCorkSpec
+     */
+    omit?: SpongeCorkSpecOmit<ExtArgs> | null
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: SpongeCorkSpecInclude<ExtArgs> | null
+    where?: SpongeCorkSpecWhereInput
+  }
+
+  /**
+   * MachineBasicSpec.sutebaSpec
+   */
+  export type MachineBasicSpec$sutebaSpecArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the SutebaSpec
+     */
+    select?: SutebaSpecSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the SutebaSpec
+     */
+    omit?: SutebaSpecOmit<ExtArgs> | null
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: SutebaSpecInclude<ExtArgs> | null
+    where?: SutebaSpecWhereInput
   }
 
   /**
@@ -18621,17 +18621,17 @@ export namespace Prisma {
     nickSpecId?: IntNullableFilter<"MachineBasicSpec"> | number | null
     ruleThicknessSpecId?: IntNullableFilter<"MachineBasicSpec"> | number | null
     remarkSpecId?: IntNullableFilter<"MachineBasicSpec"> | number | null
-    kuwaeSpec?: XOR<KuwaeSpecNullableScalarRelationFilter, KuwaeSpecWhereInput> | null
+    centerMetalSpec?: XOR<CenterMetalSpecNullableScalarRelationFilter, CenterMetalSpecWhereInput> | null
     detailSpec?: XOR<DetailSpecNullableScalarRelationFilter, DetailSpecWhereInput> | null
     filmSpec?: XOR<FilmSpecNullableScalarRelationFilter, FilmSpecWhereInput> | null
-    ruleSpec?: XOR<RuleSpecNullableScalarRelationFilter, RuleSpecWhereInput> | null
-    sheetBaseSpec?: XOR<SheetBaseSpecNullableScalarRelationFilter, SheetBaseSpecWhereInput> | null
-    sutebaSpec?: XOR<SutebaSpecNullableScalarRelationFilter, SutebaSpecWhereInput> | null
-    spongeCorkSpec?: XOR<SpongeCorkSpecNullableScalarRelationFilter, SpongeCorkSpecWhereInput> | null
-    centerMetalSpec?: XOR<CenterMetalSpecNullableScalarRelationFilter, CenterMetalSpecWhereInput> | null
+    kuwaeSpec?: XOR<KuwaeSpecNullableScalarRelationFilter, KuwaeSpecWhereInput> | null
     nickSpec?: XOR<NickSpecNullableScalarRelationFilter, NickSpecWhereInput> | null
-    ruleThicknessSpec?: XOR<RuleThicknessSpecNullableScalarRelationFilter, RuleThicknessSpecWhereInput> | null
     remarkSpec?: XOR<RemarkSpecNullableScalarRelationFilter, RemarkSpecWhereInput> | null
+    ruleSpec?: XOR<RuleSpecNullableScalarRelationFilter, RuleSpecWhereInput> | null
+    ruleThicknessSpec?: XOR<RuleThicknessSpecNullableScalarRelationFilter, RuleThicknessSpecWhereInput> | null
+    sheetBaseSpec?: XOR<SheetBaseSpecNullableScalarRelationFilter, SheetBaseSpecWhereInput> | null
+    spongeCorkSpec?: XOR<SpongeCorkSpecNullableScalarRelationFilter, SpongeCorkSpecWhereInput> | null
+    sutebaSpec?: XOR<SutebaSpecNullableScalarRelationFilter, SutebaSpecWhereInput> | null
   }
 
   export type MachineBasicSpecOrderByWithRelationInput = {
@@ -18655,17 +18655,17 @@ export namespace Prisma {
     nickSpecId?: SortOrderInput | SortOrder
     ruleThicknessSpecId?: SortOrderInput | SortOrder
     remarkSpecId?: SortOrderInput | SortOrder
-    kuwaeSpec?: KuwaeSpecOrderByWithRelationInput
+    centerMetalSpec?: CenterMetalSpecOrderByWithRelationInput
     detailSpec?: DetailSpecOrderByWithRelationInput
     filmSpec?: FilmSpecOrderByWithRelationInput
-    ruleSpec?: RuleSpecOrderByWithRelationInput
-    sheetBaseSpec?: SheetBaseSpecOrderByWithRelationInput
-    sutebaSpec?: SutebaSpecOrderByWithRelationInput
-    spongeCorkSpec?: SpongeCorkSpecOrderByWithRelationInput
-    centerMetalSpec?: CenterMetalSpecOrderByWithRelationInput
+    kuwaeSpec?: KuwaeSpecOrderByWithRelationInput
     nickSpec?: NickSpecOrderByWithRelationInput
-    ruleThicknessSpec?: RuleThicknessSpecOrderByWithRelationInput
     remarkSpec?: RemarkSpecOrderByWithRelationInput
+    ruleSpec?: RuleSpecOrderByWithRelationInput
+    ruleThicknessSpec?: RuleThicknessSpecOrderByWithRelationInput
+    sheetBaseSpec?: SheetBaseSpecOrderByWithRelationInput
+    spongeCorkSpec?: SpongeCorkSpecOrderByWithRelationInput
+    sutebaSpec?: SutebaSpecOrderByWithRelationInput
   }
 
   export type MachineBasicSpecWhereUniqueInput = Prisma.AtLeast<{
@@ -18692,17 +18692,17 @@ export namespace Prisma {
     createdAt?: DateTimeFilter<"MachineBasicSpec"> | Date | string
     updatedAt?: DateTimeFilter<"MachineBasicSpec"> | Date | string
     deletedAt?: DateTimeNullableFilter<"MachineBasicSpec"> | Date | string | null
-    kuwaeSpec?: XOR<KuwaeSpecNullableScalarRelationFilter, KuwaeSpecWhereInput> | null
+    centerMetalSpec?: XOR<CenterMetalSpecNullableScalarRelationFilter, CenterMetalSpecWhereInput> | null
     detailSpec?: XOR<DetailSpecNullableScalarRelationFilter, DetailSpecWhereInput> | null
     filmSpec?: XOR<FilmSpecNullableScalarRelationFilter, FilmSpecWhereInput> | null
-    ruleSpec?: XOR<RuleSpecNullableScalarRelationFilter, RuleSpecWhereInput> | null
-    sheetBaseSpec?: XOR<SheetBaseSpecNullableScalarRelationFilter, SheetBaseSpecWhereInput> | null
-    sutebaSpec?: XOR<SutebaSpecNullableScalarRelationFilter, SutebaSpecWhereInput> | null
-    spongeCorkSpec?: XOR<SpongeCorkSpecNullableScalarRelationFilter, SpongeCorkSpecWhereInput> | null
-    centerMetalSpec?: XOR<CenterMetalSpecNullableScalarRelationFilter, CenterMetalSpecWhereInput> | null
+    kuwaeSpec?: XOR<KuwaeSpecNullableScalarRelationFilter, KuwaeSpecWhereInput> | null
     nickSpec?: XOR<NickSpecNullableScalarRelationFilter, NickSpecWhereInput> | null
-    ruleThicknessSpec?: XOR<RuleThicknessSpecNullableScalarRelationFilter, RuleThicknessSpecWhereInput> | null
     remarkSpec?: XOR<RemarkSpecNullableScalarRelationFilter, RemarkSpecWhereInput> | null
+    ruleSpec?: XOR<RuleSpecNullableScalarRelationFilter, RuleSpecWhereInput> | null
+    ruleThicknessSpec?: XOR<RuleThicknessSpecNullableScalarRelationFilter, RuleThicknessSpecWhereInput> | null
+    sheetBaseSpec?: XOR<SheetBaseSpecNullableScalarRelationFilter, SheetBaseSpecWhereInput> | null
+    spongeCorkSpec?: XOR<SpongeCorkSpecNullableScalarRelationFilter, SpongeCorkSpecWhereInput> | null
+    sutebaSpec?: XOR<SutebaSpecNullableScalarRelationFilter, SutebaSpecWhereInput> | null
   }, "id" | "kuwaeSpecId" | "detailSpecId" | "filmSpecId" | "ruleSpecId" | "sheetBaseSpecId" | "sutebaSpecId" | "spongeCorkSpecId" | "centerMetalSpecId" | "nickSpecId" | "ruleThicknessSpecId" | "remarkSpecId">
 
   export type MachineBasicSpecOrderByWithAggregationInput = {
@@ -19566,17 +19566,17 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateInput = {
@@ -19611,17 +19611,17 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateInput = {
@@ -20666,9 +20666,9 @@ export namespace Prisma {
     not?: NestedDateTimeNullableFilter<$PrismaModel> | Date | string | null
   }
 
-  export type KuwaeSpecNullableScalarRelationFilter = {
-    is?: KuwaeSpecWhereInput | null
-    isNot?: KuwaeSpecWhereInput | null
+  export type CenterMetalSpecNullableScalarRelationFilter = {
+    is?: CenterMetalSpecWhereInput | null
+    isNot?: CenterMetalSpecWhereInput | null
   }
 
   export type DetailSpecNullableScalarRelationFilter = {
@@ -20681,29 +20681,9 @@ export namespace Prisma {
     isNot?: FilmSpecWhereInput | null
   }
 
-  export type RuleSpecNullableScalarRelationFilter = {
-    is?: RuleSpecWhereInput | null
-    isNot?: RuleSpecWhereInput | null
-  }
-
-  export type SheetBaseSpecNullableScalarRelationFilter = {
-    is?: SheetBaseSpecWhereInput | null
-    isNot?: SheetBaseSpecWhereInput | null
-  }
-
-  export type SutebaSpecNullableScalarRelationFilter = {
-    is?: SutebaSpecWhereInput | null
-    isNot?: SutebaSpecWhereInput | null
-  }
-
-  export type SpongeCorkSpecNullableScalarRelationFilter = {
-    is?: SpongeCorkSpecWhereInput | null
-    isNot?: SpongeCorkSpecWhereInput | null
-  }
-
-  export type CenterMetalSpecNullableScalarRelationFilter = {
-    is?: CenterMetalSpecWhereInput | null
-    isNot?: CenterMetalSpecWhereInput | null
+  export type KuwaeSpecNullableScalarRelationFilter = {
+    is?: KuwaeSpecWhereInput | null
+    isNot?: KuwaeSpecWhereInput | null
   }
 
   export type NickSpecNullableScalarRelationFilter = {
@@ -20711,14 +20691,34 @@ export namespace Prisma {
     isNot?: NickSpecWhereInput | null
   }
 
+  export type RemarkSpecNullableScalarRelationFilter = {
+    is?: RemarkSpecWhereInput | null
+    isNot?: RemarkSpecWhereInput | null
+  }
+
+  export type RuleSpecNullableScalarRelationFilter = {
+    is?: RuleSpecWhereInput | null
+    isNot?: RuleSpecWhereInput | null
+  }
+
   export type RuleThicknessSpecNullableScalarRelationFilter = {
     is?: RuleThicknessSpecWhereInput | null
     isNot?: RuleThicknessSpecWhereInput | null
   }
 
-  export type RemarkSpecNullableScalarRelationFilter = {
-    is?: RemarkSpecWhereInput | null
-    isNot?: RemarkSpecWhereInput | null
+  export type SheetBaseSpecNullableScalarRelationFilter = {
+    is?: SheetBaseSpecWhereInput | null
+    isNot?: SheetBaseSpecWhereInput | null
+  }
+
+  export type SpongeCorkSpecNullableScalarRelationFilter = {
+    is?: SpongeCorkSpecWhereInput | null
+    isNot?: SpongeCorkSpecWhereInput | null
+  }
+
+  export type SutebaSpecNullableScalarRelationFilter = {
+    is?: SutebaSpecWhereInput | null
+    isNot?: SutebaSpecWhereInput | null
   }
 
   export type MachineBasicSpecCountOrderByAggregateInput = {
@@ -21363,10 +21363,10 @@ export namespace Prisma {
     divide?: number
   }
 
-  export type KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: KuwaeSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: KuwaeSpecWhereUniqueInput
+  export type CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: CenterMetalSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: CenterMetalSpecWhereUniqueInput
   }
 
   export type DetailSpecCreateNestedOneWithoutMachineBasicSpecInput = {
@@ -21381,34 +21381,10 @@ export namespace Prisma {
     connect?: FilmSpecWhereUniqueInput
   }
 
-  export type RuleSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<RuleSpecCreateWithoutMachineBasicSpecInput, RuleSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: RuleSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: RuleSpecWhereUniqueInput
-  }
-
-  export type SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<SheetBaseSpecCreateWithoutMachineBasicSpecInput, SheetBaseSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: SheetBaseSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: SheetBaseSpecWhereUniqueInput
-  }
-
-  export type SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: SutebaSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: SutebaSpecWhereUniqueInput
-  }
-
-  export type SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<SpongeCorkSpecCreateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: SpongeCorkSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: SpongeCorkSpecWhereUniqueInput
-  }
-
-  export type CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: CenterMetalSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: CenterMetalSpecWhereUniqueInput
+  export type KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: KuwaeSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: KuwaeSpecWhereUniqueInput
   }
 
   export type NickSpecCreateNestedOneWithoutMachineBasicSpecInput = {
@@ -21417,30 +21393,54 @@ export namespace Prisma {
     connect?: NickSpecWhereUniqueInput
   }
 
-  export type RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput = {
-    create?: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: RuleThicknessSpecCreateOrConnectWithoutMachineBasicSpecInput
-    connect?: RuleThicknessSpecWhereUniqueInput
-  }
-
   export type RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput = {
     create?: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
     connectOrCreate?: RemarkSpecCreateOrConnectWithoutMachineBasicSpecInput
     connect?: RemarkSpecWhereUniqueInput
   }
 
+  export type RuleSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<RuleSpecCreateWithoutMachineBasicSpecInput, RuleSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: RuleSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: RuleSpecWhereUniqueInput
+  }
+
+  export type RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: RuleThicknessSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: RuleThicknessSpecWhereUniqueInput
+  }
+
+  export type SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<SheetBaseSpecCreateWithoutMachineBasicSpecInput, SheetBaseSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: SheetBaseSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: SheetBaseSpecWhereUniqueInput
+  }
+
+  export type SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<SpongeCorkSpecCreateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: SpongeCorkSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: SpongeCorkSpecWhereUniqueInput
+  }
+
+  export type SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput = {
+    create?: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: SutebaSpecCreateOrConnectWithoutMachineBasicSpecInput
+    connect?: SutebaSpecWhereUniqueInput
+  }
+
   export type NullableDateTimeFieldUpdateOperationsInput = {
     set?: Date | string | null
   }
 
-  export type KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: KuwaeSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: KuwaeSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: KuwaeSpecWhereInput | boolean
-    delete?: KuwaeSpecWhereInput | boolean
-    connect?: KuwaeSpecWhereUniqueInput
-    update?: XOR<XOR<KuwaeSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, KuwaeSpecUpdateWithoutMachineBasicSpecInput>, KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  export type CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: CenterMetalSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: CenterMetalSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: CenterMetalSpecWhereInput | boolean
+    delete?: CenterMetalSpecWhereInput | boolean
+    connect?: CenterMetalSpecWhereUniqueInput
+    update?: XOR<XOR<CenterMetalSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, CenterMetalSpecUpdateWithoutMachineBasicSpecInput>, CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
   export type DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
@@ -21463,54 +21463,14 @@ export namespace Prisma {
     update?: XOR<XOR<FilmSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, FilmSpecUpdateWithoutMachineBasicSpecInput>, FilmSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
-  export type RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<RuleSpecCreateWithoutMachineBasicSpecInput, RuleSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: RuleSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: RuleSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: RuleSpecWhereInput | boolean
-    delete?: RuleSpecWhereInput | boolean
-    connect?: RuleSpecWhereUniqueInput
-    update?: XOR<XOR<RuleSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, RuleSpecUpdateWithoutMachineBasicSpecInput>, RuleSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<SheetBaseSpecCreateWithoutMachineBasicSpecInput, SheetBaseSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: SheetBaseSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: SheetBaseSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: SheetBaseSpecWhereInput | boolean
-    delete?: SheetBaseSpecWhereInput | boolean
-    connect?: SheetBaseSpecWhereUniqueInput
-    update?: XOR<XOR<SheetBaseSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, SheetBaseSpecUpdateWithoutMachineBasicSpecInput>, SheetBaseSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: SutebaSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: SutebaSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: SutebaSpecWhereInput | boolean
-    delete?: SutebaSpecWhereInput | boolean
-    connect?: SutebaSpecWhereUniqueInput
-    update?: XOR<XOR<SutebaSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, SutebaSpecUpdateWithoutMachineBasicSpecInput>, SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<SpongeCorkSpecCreateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: SpongeCorkSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: SpongeCorkSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: SpongeCorkSpecWhereInput | boolean
-    delete?: SpongeCorkSpecWhereInput | boolean
-    connect?: SpongeCorkSpecWhereUniqueInput
-    update?: XOR<XOR<SpongeCorkSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, SpongeCorkSpecUpdateWithoutMachineBasicSpecInput>, SpongeCorkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: CenterMetalSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: CenterMetalSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: CenterMetalSpecWhereInput | boolean
-    delete?: CenterMetalSpecWhereInput | boolean
-    connect?: CenterMetalSpecWhereUniqueInput
-    update?: XOR<XOR<CenterMetalSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, CenterMetalSpecUpdateWithoutMachineBasicSpecInput>, CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  export type KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: KuwaeSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: KuwaeSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: KuwaeSpecWhereInput | boolean
+    delete?: KuwaeSpecWhereInput | boolean
+    connect?: KuwaeSpecWhereUniqueInput
+    update?: XOR<XOR<KuwaeSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, KuwaeSpecUpdateWithoutMachineBasicSpecInput>, KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
   export type NickSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
@@ -21523,6 +21483,26 @@ export namespace Prisma {
     update?: XOR<XOR<NickSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, NickSpecUpdateWithoutMachineBasicSpecInput>, NickSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
+  export type RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: RemarkSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: RemarkSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: RemarkSpecWhereInput | boolean
+    delete?: RemarkSpecWhereInput | boolean
+    connect?: RemarkSpecWhereUniqueInput
+    update?: XOR<XOR<RemarkSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, RemarkSpecUpdateWithoutMachineBasicSpecInput>, RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<RuleSpecCreateWithoutMachineBasicSpecInput, RuleSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: RuleSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: RuleSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: RuleSpecWhereInput | boolean
+    delete?: RuleSpecWhereInput | boolean
+    connect?: RuleSpecWhereUniqueInput
+    update?: XOR<XOR<RuleSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, RuleSpecUpdateWithoutMachineBasicSpecInput>, RuleSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
   export type RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
     create?: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
     connectOrCreate?: RuleThicknessSpecCreateOrConnectWithoutMachineBasicSpecInput
@@ -21533,14 +21513,34 @@ export namespace Prisma {
     update?: XOR<XOR<RuleThicknessSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, RuleThicknessSpecUpdateWithoutMachineBasicSpecInput>, RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
-  export type RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
-    create?: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    connectOrCreate?: RemarkSpecCreateOrConnectWithoutMachineBasicSpecInput
-    upsert?: RemarkSpecUpsertWithoutMachineBasicSpecInput
-    disconnect?: RemarkSpecWhereInput | boolean
-    delete?: RemarkSpecWhereInput | boolean
-    connect?: RemarkSpecWhereUniqueInput
-    update?: XOR<XOR<RemarkSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, RemarkSpecUpdateWithoutMachineBasicSpecInput>, RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  export type SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<SheetBaseSpecCreateWithoutMachineBasicSpecInput, SheetBaseSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: SheetBaseSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: SheetBaseSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: SheetBaseSpecWhereInput | boolean
+    delete?: SheetBaseSpecWhereInput | boolean
+    connect?: SheetBaseSpecWhereUniqueInput
+    update?: XOR<XOR<SheetBaseSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, SheetBaseSpecUpdateWithoutMachineBasicSpecInput>, SheetBaseSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<SpongeCorkSpecCreateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: SpongeCorkSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: SpongeCorkSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: SpongeCorkSpecWhereInput | boolean
+    delete?: SpongeCorkSpecWhereInput | boolean
+    connect?: SpongeCorkSpecWhereUniqueInput
+    update?: XOR<XOR<SpongeCorkSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, SpongeCorkSpecUpdateWithoutMachineBasicSpecInput>, SpongeCorkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput = {
+    create?: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    connectOrCreate?: SutebaSpecCreateOrConnectWithoutMachineBasicSpecInput
+    upsert?: SutebaSpecUpsertWithoutMachineBasicSpecInput
+    disconnect?: SutebaSpecWhereInput | boolean
+    delete?: SutebaSpecWhereInput | boolean
+    connect?: SutebaSpecWhereUniqueInput
+    update?: XOR<XOR<SutebaSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput, SutebaSpecUpdateWithoutMachineBasicSpecInput>, SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
   export type MachineBasicSpecCreateNestedOneWithoutKuwaeSpecInput = {
@@ -22218,26 +22218,26 @@ export namespace Prisma {
     name?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
-  export type KuwaeSpecCreateWithoutMachineBasicSpecInput = {
-    die_kuwae?: string | null
-    kuwae_cutting_thickness?: string | null
-    kuwae_cutting_width?: string | null
-    kuwae_angle?: string | null
-    back_kuwae_angle?: string | null
+  export type CenterMetalSpecCreateWithoutMachineBasicSpecInput = {
+    center_metal?: string | null
+    center_metal_kind?: string | null
+    center_metal_center?: string | null
+    center_metal_right?: string | null
+    center_metal_left?: string | null
   }
 
-  export type KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput = {
+  export type CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput = {
     id?: number
-    die_kuwae?: string | null
-    kuwae_cutting_thickness?: string | null
-    kuwae_cutting_width?: string | null
-    kuwae_angle?: string | null
-    back_kuwae_angle?: string | null
+    center_metal?: string | null
+    center_metal_kind?: string | null
+    center_metal_center?: string | null
+    center_metal_right?: string | null
+    center_metal_left?: string | null
   }
 
-  export type KuwaeSpecCreateOrConnectWithoutMachineBasicSpecInput = {
-    where: KuwaeSpecWhereUniqueInput
-    create: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
+  export type CenterMetalSpecCreateOrConnectWithoutMachineBasicSpecInput = {
+    where: CenterMetalSpecWhereUniqueInput
+    create: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
   }
 
   export type DetailSpecCreateWithoutMachineBasicSpecInput = {
@@ -22284,6 +22284,72 @@ export namespace Prisma {
     create: XOR<FilmSpecCreateWithoutMachineBasicSpecInput, FilmSpecUncheckedCreateWithoutMachineBasicSpecInput>
   }
 
+  export type KuwaeSpecCreateWithoutMachineBasicSpecInput = {
+    die_kuwae?: string | null
+    kuwae_cutting_thickness?: string | null
+    kuwae_cutting_width?: string | null
+    kuwae_angle?: string | null
+    back_kuwae_angle?: string | null
+  }
+
+  export type KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput = {
+    id?: number
+    die_kuwae?: string | null
+    kuwae_cutting_thickness?: string | null
+    kuwae_cutting_width?: string | null
+    kuwae_angle?: string | null
+    back_kuwae_angle?: string | null
+  }
+
+  export type KuwaeSpecCreateOrConnectWithoutMachineBasicSpecInput = {
+    where: KuwaeSpecWhereUniqueInput
+    create: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
+  }
+
+  export type NickSpecCreateWithoutMachineBasicSpecInput = {
+    nick?: string | null
+    nick_remark_1?: string | null
+    nick_remark_2?: string | null
+    nick_remark_3?: string | null
+  }
+
+  export type NickSpecUncheckedCreateWithoutMachineBasicSpecInput = {
+    id?: number
+    nick?: string | null
+    nick_remark_1?: string | null
+    nick_remark_2?: string | null
+    nick_remark_3?: string | null
+  }
+
+  export type NickSpecCreateOrConnectWithoutMachineBasicSpecInput = {
+    where: NickSpecWhereUniqueInput
+    create: XOR<NickSpecCreateWithoutMachineBasicSpecInput, NickSpecUncheckedCreateWithoutMachineBasicSpecInput>
+  }
+
+  export type RemarkSpecCreateWithoutMachineBasicSpecInput = {
+    remark_1?: string | null
+    remark_2?: string | null
+    remark_3?: string | null
+    stripper_first_suteba?: string | null
+    air_hammer_first_suteba?: string | null
+    ueda_first_suteba?: string | null
+  }
+
+  export type RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput = {
+    id?: number
+    remark_1?: string | null
+    remark_2?: string | null
+    remark_3?: string | null
+    stripper_first_suteba?: string | null
+    air_hammer_first_suteba?: string | null
+    ueda_first_suteba?: string | null
+  }
+
+  export type RemarkSpecCreateOrConnectWithoutMachineBasicSpecInput = {
+    where: RemarkSpecWhereUniqueInput
+    create: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
+  }
+
   export type RuleSpecCreateWithoutMachineBasicSpecInput = {
     balance_rule?: string | null
     inside_sheet_rule?: string | null
@@ -22298,6 +22364,34 @@ export namespace Prisma {
   export type RuleSpecCreateOrConnectWithoutMachineBasicSpecInput = {
     where: RuleSpecWhereUniqueInput
     create: XOR<RuleSpecCreateWithoutMachineBasicSpecInput, RuleSpecUncheckedCreateWithoutMachineBasicSpecInput>
+  }
+
+  export type RuleThicknessSpecCreateWithoutMachineBasicSpecInput = {
+    ef_rule?: string | null
+    bf_rule?: string | null
+    af_rule?: string | null
+    wf_rule?: string | null
+    gf_rule?: string | null
+    ff_rule?: string | null
+    cf_rule?: string | null
+    paper_350_rule?: string | null
+  }
+
+  export type RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput = {
+    id?: number
+    ef_rule?: string | null
+    bf_rule?: string | null
+    af_rule?: string | null
+    wf_rule?: string | null
+    gf_rule?: string | null
+    ff_rule?: string | null
+    cf_rule?: string | null
+    paper_350_rule?: string | null
+  }
+
+  export type RuleThicknessSpecCreateOrConnectWithoutMachineBasicSpecInput = {
+    where: RuleThicknessSpecWhereUniqueInput
+    create: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
   }
 
   export type SheetBaseSpecCreateWithoutMachineBasicSpecInput = {
@@ -22332,20 +22426,6 @@ export namespace Prisma {
     create: XOR<SheetBaseSpecCreateWithoutMachineBasicSpecInput, SheetBaseSpecUncheckedCreateWithoutMachineBasicSpecInput>
   }
 
-  export type SutebaSpecCreateWithoutMachineBasicSpecInput = {
-    suteba_pitch?: number | null
-  }
-
-  export type SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput = {
-    id?: number
-    suteba_pitch?: number | null
-  }
-
-  export type SutebaSpecCreateOrConnectWithoutMachineBasicSpecInput = {
-    where: SutebaSpecWhereUniqueInput
-    create: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
-  }
-
   export type SpongeCorkSpecCreateWithoutMachineBasicSpecInput = {
     sponge?: string | null
     cork?: string | null
@@ -22366,126 +22446,46 @@ export namespace Prisma {
     create: XOR<SpongeCorkSpecCreateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedCreateWithoutMachineBasicSpecInput>
   }
 
-  export type CenterMetalSpecCreateWithoutMachineBasicSpecInput = {
-    center_metal?: string | null
-    center_metal_kind?: string | null
-    center_metal_center?: string | null
-    center_metal_right?: string | null
-    center_metal_left?: string | null
+  export type SutebaSpecCreateWithoutMachineBasicSpecInput = {
+    suteba_pitch?: number | null
   }
 
-  export type CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput = {
+  export type SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput = {
     id?: number
-    center_metal?: string | null
-    center_metal_kind?: string | null
-    center_metal_center?: string | null
-    center_metal_right?: string | null
-    center_metal_left?: string | null
+    suteba_pitch?: number | null
   }
 
-  export type CenterMetalSpecCreateOrConnectWithoutMachineBasicSpecInput = {
-    where: CenterMetalSpecWhereUniqueInput
+  export type SutebaSpecCreateOrConnectWithoutMachineBasicSpecInput = {
+    where: SutebaSpecWhereUniqueInput
+    create: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
+  }
+
+  export type CenterMetalSpecUpsertWithoutMachineBasicSpecInput = {
+    update: XOR<CenterMetalSpecUpdateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput>
     create: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    where?: CenterMetalSpecWhereInput
   }
 
-  export type NickSpecCreateWithoutMachineBasicSpecInput = {
-    nick?: string | null
-    nick_remark_1?: string | null
-    nick_remark_2?: string | null
-    nick_remark_3?: string | null
+  export type CenterMetalSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
+    where?: CenterMetalSpecWhereInput
+    data: XOR<CenterMetalSpecUpdateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
-  export type NickSpecUncheckedCreateWithoutMachineBasicSpecInput = {
-    id?: number
-    nick?: string | null
-    nick_remark_1?: string | null
-    nick_remark_2?: string | null
-    nick_remark_3?: string | null
+  export type CenterMetalSpecUpdateWithoutMachineBasicSpecInput = {
+    center_metal?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_kind?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_center?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_right?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_left?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
-  export type NickSpecCreateOrConnectWithoutMachineBasicSpecInput = {
-    where: NickSpecWhereUniqueInput
-    create: XOR<NickSpecCreateWithoutMachineBasicSpecInput, NickSpecUncheckedCreateWithoutMachineBasicSpecInput>
-  }
-
-  export type RuleThicknessSpecCreateWithoutMachineBasicSpecInput = {
-    ef_rule?: string | null
-    bf_rule?: string | null
-    af_rule?: string | null
-    wf_rule?: string | null
-    gf_rule?: string | null
-    ff_rule?: string | null
-    cf_rule?: string | null
-    paper_350_rule?: string | null
-  }
-
-  export type RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput = {
-    id?: number
-    ef_rule?: string | null
-    bf_rule?: string | null
-    af_rule?: string | null
-    wf_rule?: string | null
-    gf_rule?: string | null
-    ff_rule?: string | null
-    cf_rule?: string | null
-    paper_350_rule?: string | null
-  }
-
-  export type RuleThicknessSpecCreateOrConnectWithoutMachineBasicSpecInput = {
-    where: RuleThicknessSpecWhereUniqueInput
-    create: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
-  }
-
-  export type RemarkSpecCreateWithoutMachineBasicSpecInput = {
-    remark_1?: string | null
-    remark_2?: string | null
-    remark_3?: string | null
-    stripper_first_suteba?: string | null
-    air_hammer_first_suteba?: string | null
-    ueda_first_suteba?: string | null
-  }
-
-  export type RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput = {
-    id?: number
-    remark_1?: string | null
-    remark_2?: string | null
-    remark_3?: string | null
-    stripper_first_suteba?: string | null
-    air_hammer_first_suteba?: string | null
-    ueda_first_suteba?: string | null
-  }
-
-  export type RemarkSpecCreateOrConnectWithoutMachineBasicSpecInput = {
-    where: RemarkSpecWhereUniqueInput
-    create: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
-  }
-
-  export type KuwaeSpecUpsertWithoutMachineBasicSpecInput = {
-    update: XOR<KuwaeSpecUpdateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-    create: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    where?: KuwaeSpecWhereInput
-  }
-
-  export type KuwaeSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
-    where?: KuwaeSpecWhereInput
-    data: XOR<KuwaeSpecUpdateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type KuwaeSpecUpdateWithoutMachineBasicSpecInput = {
-    die_kuwae?: NullableStringFieldUpdateOperationsInput | string | null
-    kuwae_cutting_thickness?: NullableStringFieldUpdateOperationsInput | string | null
-    kuwae_cutting_width?: NullableStringFieldUpdateOperationsInput | string | null
-    kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
-    back_kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
+  export type CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
     id?: IntFieldUpdateOperationsInput | number
-    die_kuwae?: NullableStringFieldUpdateOperationsInput | string | null
-    kuwae_cutting_thickness?: NullableStringFieldUpdateOperationsInput | string | null
-    kuwae_cutting_width?: NullableStringFieldUpdateOperationsInput | string | null
-    kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
-    back_kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_kind?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_center?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_right?: NullableStringFieldUpdateOperationsInput | string | null
+    center_metal_left?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type DetailSpecUpsertWithoutMachineBasicSpecInput = {
@@ -22544,6 +22544,90 @@ export namespace Prisma {
     film_thickness?: NullableFloatFieldUpdateOperationsInput | number | null
   }
 
+  export type KuwaeSpecUpsertWithoutMachineBasicSpecInput = {
+    update: XOR<KuwaeSpecUpdateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+    create: XOR<KuwaeSpecCreateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    where?: KuwaeSpecWhereInput
+  }
+
+  export type KuwaeSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
+    where?: KuwaeSpecWhereInput
+    data: XOR<KuwaeSpecUpdateWithoutMachineBasicSpecInput, KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type KuwaeSpecUpdateWithoutMachineBasicSpecInput = {
+    die_kuwae?: NullableStringFieldUpdateOperationsInput | string | null
+    kuwae_cutting_thickness?: NullableStringFieldUpdateOperationsInput | string | null
+    kuwae_cutting_width?: NullableStringFieldUpdateOperationsInput | string | null
+    kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
+    back_kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type KuwaeSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
+    id?: IntFieldUpdateOperationsInput | number
+    die_kuwae?: NullableStringFieldUpdateOperationsInput | string | null
+    kuwae_cutting_thickness?: NullableStringFieldUpdateOperationsInput | string | null
+    kuwae_cutting_width?: NullableStringFieldUpdateOperationsInput | string | null
+    kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
+    back_kuwae_angle?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type NickSpecUpsertWithoutMachineBasicSpecInput = {
+    update: XOR<NickSpecUpdateWithoutMachineBasicSpecInput, NickSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+    create: XOR<NickSpecCreateWithoutMachineBasicSpecInput, NickSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    where?: NickSpecWhereInput
+  }
+
+  export type NickSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
+    where?: NickSpecWhereInput
+    data: XOR<NickSpecUpdateWithoutMachineBasicSpecInput, NickSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type NickSpecUpdateWithoutMachineBasicSpecInput = {
+    nick?: NullableStringFieldUpdateOperationsInput | string | null
+    nick_remark_1?: NullableStringFieldUpdateOperationsInput | string | null
+    nick_remark_2?: NullableStringFieldUpdateOperationsInput | string | null
+    nick_remark_3?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type NickSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
+    id?: IntFieldUpdateOperationsInput | number
+    nick?: NullableStringFieldUpdateOperationsInput | string | null
+    nick_remark_1?: NullableStringFieldUpdateOperationsInput | string | null
+    nick_remark_2?: NullableStringFieldUpdateOperationsInput | string | null
+    nick_remark_3?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type RemarkSpecUpsertWithoutMachineBasicSpecInput = {
+    update: XOR<RemarkSpecUpdateWithoutMachineBasicSpecInput, RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+    create: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    where?: RemarkSpecWhereInput
+  }
+
+  export type RemarkSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
+    where?: RemarkSpecWhereInput
+    data: XOR<RemarkSpecUpdateWithoutMachineBasicSpecInput, RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type RemarkSpecUpdateWithoutMachineBasicSpecInput = {
+    remark_1?: NullableStringFieldUpdateOperationsInput | string | null
+    remark_2?: NullableStringFieldUpdateOperationsInput | string | null
+    remark_3?: NullableStringFieldUpdateOperationsInput | string | null
+    stripper_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+    air_hammer_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+    ueda_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
+    id?: IntFieldUpdateOperationsInput | number
+    remark_1?: NullableStringFieldUpdateOperationsInput | string | null
+    remark_2?: NullableStringFieldUpdateOperationsInput | string | null
+    remark_3?: NullableStringFieldUpdateOperationsInput | string | null
+    stripper_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+    air_hammer_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+    ueda_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
   export type RuleSpecUpsertWithoutMachineBasicSpecInput = {
     update: XOR<RuleSpecUpdateWithoutMachineBasicSpecInput, RuleSpecUncheckedUpdateWithoutMachineBasicSpecInput>
     create: XOR<RuleSpecCreateWithoutMachineBasicSpecInput, RuleSpecUncheckedCreateWithoutMachineBasicSpecInput>
@@ -22564,6 +22648,40 @@ export namespace Prisma {
     id?: IntFieldUpdateOperationsInput | number
     balance_rule?: NullableStringFieldUpdateOperationsInput | string | null
     inside_sheet_rule?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type RuleThicknessSpecUpsertWithoutMachineBasicSpecInput = {
+    update: XOR<RuleThicknessSpecUpdateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+    create: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    where?: RuleThicknessSpecWhereInput
+  }
+
+  export type RuleThicknessSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
+    where?: RuleThicknessSpecWhereInput
+    data: XOR<RuleThicknessSpecUpdateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  }
+
+  export type RuleThicknessSpecUpdateWithoutMachineBasicSpecInput = {
+    ef_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    bf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    af_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    wf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    gf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    ff_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    cf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    paper_350_rule?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
+    id?: IntFieldUpdateOperationsInput | number
+    ef_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    bf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    af_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    wf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    gf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    ff_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    cf_rule?: NullableStringFieldUpdateOperationsInput | string | null
+    paper_350_rule?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type SheetBaseSpecUpsertWithoutMachineBasicSpecInput = {
@@ -22604,26 +22722,6 @@ export namespace Prisma {
     min_base_y?: NullableFloatFieldUpdateOperationsInput | number | null
   }
 
-  export type SutebaSpecUpsertWithoutMachineBasicSpecInput = {
-    update: XOR<SutebaSpecUpdateWithoutMachineBasicSpecInput, SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-    create: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    where?: SutebaSpecWhereInput
-  }
-
-  export type SutebaSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
-    where?: SutebaSpecWhereInput
-    data: XOR<SutebaSpecUpdateWithoutMachineBasicSpecInput, SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type SutebaSpecUpdateWithoutMachineBasicSpecInput = {
-    suteba_pitch?: NullableFloatFieldUpdateOperationsInput | number | null
-  }
-
-  export type SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
-    id?: IntFieldUpdateOperationsInput | number
-    suteba_pitch?: NullableFloatFieldUpdateOperationsInput | number | null
-  }
-
   export type SpongeCorkSpecUpsertWithoutMachineBasicSpecInput = {
     update: XOR<SpongeCorkSpecUpdateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
     create: XOR<SpongeCorkSpecCreateWithoutMachineBasicSpecInput, SpongeCorkSpecUncheckedCreateWithoutMachineBasicSpecInput>
@@ -22650,122 +22748,24 @@ export namespace Prisma {
     crushing_remark?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
-  export type CenterMetalSpecUpsertWithoutMachineBasicSpecInput = {
-    update: XOR<CenterMetalSpecUpdateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-    create: XOR<CenterMetalSpecCreateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    where?: CenterMetalSpecWhereInput
+  export type SutebaSpecUpsertWithoutMachineBasicSpecInput = {
+    update: XOR<SutebaSpecUpdateWithoutMachineBasicSpecInput, SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+    create: XOR<SutebaSpecCreateWithoutMachineBasicSpecInput, SutebaSpecUncheckedCreateWithoutMachineBasicSpecInput>
+    where?: SutebaSpecWhereInput
   }
 
-  export type CenterMetalSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
-    where?: CenterMetalSpecWhereInput
-    data: XOR<CenterMetalSpecUpdateWithoutMachineBasicSpecInput, CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput>
+  export type SutebaSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
+    where?: SutebaSpecWhereInput
+    data: XOR<SutebaSpecUpdateWithoutMachineBasicSpecInput, SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput>
   }
 
-  export type CenterMetalSpecUpdateWithoutMachineBasicSpecInput = {
-    center_metal?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_kind?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_center?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_right?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_left?: NullableStringFieldUpdateOperationsInput | string | null
+  export type SutebaSpecUpdateWithoutMachineBasicSpecInput = {
+    suteba_pitch?: NullableFloatFieldUpdateOperationsInput | number | null
   }
 
-  export type CenterMetalSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
+  export type SutebaSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
     id?: IntFieldUpdateOperationsInput | number
-    center_metal?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_kind?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_center?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_right?: NullableStringFieldUpdateOperationsInput | string | null
-    center_metal_left?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type NickSpecUpsertWithoutMachineBasicSpecInput = {
-    update: XOR<NickSpecUpdateWithoutMachineBasicSpecInput, NickSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-    create: XOR<NickSpecCreateWithoutMachineBasicSpecInput, NickSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    where?: NickSpecWhereInput
-  }
-
-  export type NickSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
-    where?: NickSpecWhereInput
-    data: XOR<NickSpecUpdateWithoutMachineBasicSpecInput, NickSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type NickSpecUpdateWithoutMachineBasicSpecInput = {
-    nick?: NullableStringFieldUpdateOperationsInput | string | null
-    nick_remark_1?: NullableStringFieldUpdateOperationsInput | string | null
-    nick_remark_2?: NullableStringFieldUpdateOperationsInput | string | null
-    nick_remark_3?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type NickSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
-    id?: IntFieldUpdateOperationsInput | number
-    nick?: NullableStringFieldUpdateOperationsInput | string | null
-    nick_remark_1?: NullableStringFieldUpdateOperationsInput | string | null
-    nick_remark_2?: NullableStringFieldUpdateOperationsInput | string | null
-    nick_remark_3?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type RuleThicknessSpecUpsertWithoutMachineBasicSpecInput = {
-    update: XOR<RuleThicknessSpecUpdateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-    create: XOR<RuleThicknessSpecCreateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    where?: RuleThicknessSpecWhereInput
-  }
-
-  export type RuleThicknessSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
-    where?: RuleThicknessSpecWhereInput
-    data: XOR<RuleThicknessSpecUpdateWithoutMachineBasicSpecInput, RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type RuleThicknessSpecUpdateWithoutMachineBasicSpecInput = {
-    ef_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    bf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    af_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    wf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    gf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    ff_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    cf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    paper_350_rule?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type RuleThicknessSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
-    id?: IntFieldUpdateOperationsInput | number
-    ef_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    bf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    af_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    wf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    gf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    ff_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    cf_rule?: NullableStringFieldUpdateOperationsInput | string | null
-    paper_350_rule?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type RemarkSpecUpsertWithoutMachineBasicSpecInput = {
-    update: XOR<RemarkSpecUpdateWithoutMachineBasicSpecInput, RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-    create: XOR<RemarkSpecCreateWithoutMachineBasicSpecInput, RemarkSpecUncheckedCreateWithoutMachineBasicSpecInput>
-    where?: RemarkSpecWhereInput
-  }
-
-  export type RemarkSpecUpdateToOneWithWhereWithoutMachineBasicSpecInput = {
-    where?: RemarkSpecWhereInput
-    data: XOR<RemarkSpecUpdateWithoutMachineBasicSpecInput, RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput>
-  }
-
-  export type RemarkSpecUpdateWithoutMachineBasicSpecInput = {
-    remark_1?: NullableStringFieldUpdateOperationsInput | string | null
-    remark_2?: NullableStringFieldUpdateOperationsInput | string | null
-    remark_3?: NullableStringFieldUpdateOperationsInput | string | null
-    stripper_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
-    air_hammer_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
-    ueda_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
-  }
-
-  export type RemarkSpecUncheckedUpdateWithoutMachineBasicSpecInput = {
-    id?: IntFieldUpdateOperationsInput | number
-    remark_1?: NullableStringFieldUpdateOperationsInput | string | null
-    remark_2?: NullableStringFieldUpdateOperationsInput | string | null
-    remark_3?: NullableStringFieldUpdateOperationsInput | string | null
-    stripper_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
-    air_hammer_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
-    ueda_first_suteba?: NullableStringFieldUpdateOperationsInput | string | null
+    suteba_pitch?: NullableFloatFieldUpdateOperationsInput | number | null
   }
 
   export type MachineBasicSpecCreateWithoutKuwaeSpecInput = {
@@ -22777,16 +22777,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutKuwaeSpecInput = {
@@ -22836,16 +22836,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutKuwaeSpecInput = {
@@ -22879,16 +22879,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
-    filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
     centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutDetailSpecInput = {
@@ -22938,16 +22938,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
     centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutDetailSpecInput = {
@@ -22981,16 +22981,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
-    detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
     centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutFilmSpecInput = {
@@ -23040,16 +23040,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
     centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutFilmSpecInput = {
@@ -23083,16 +23083,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutRuleSpecInput = {
@@ -23142,16 +23142,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutRuleSpecInput = {
@@ -23185,16 +23185,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutSheetBaseSpecInput = {
@@ -23244,16 +23244,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutSheetBaseSpecInput = {
@@ -23287,16 +23287,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
+    remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
     ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
     spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
-    nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
-    remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutSutebaSpecInput = {
@@ -23346,16 +23346,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
     ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
     spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutSutebaSpecInput = {
@@ -23389,16 +23389,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
+    remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
     ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
     sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
-    nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
-    remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutSpongeCorkSpecInput = {
@@ -23448,16 +23448,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
     ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
     sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutSpongeCorkSpecInput = {
@@ -23491,16 +23491,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutCenterMetalSpecInput = {
@@ -23550,16 +23550,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutCenterMetalSpecInput = {
@@ -23593,16 +23593,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutNickSpecInput = {
@@ -23652,16 +23652,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutNickSpecInput = {
@@ -23695,16 +23695,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
     remarkSpec?: RemarkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutRuleThicknessSpecInput = {
@@ -23754,16 +23754,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
     remarkSpec?: RemarkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutRuleThicknessSpecInput = {
@@ -23797,16 +23797,16 @@ export namespace Prisma {
     createdAt?: Date | string
     updatedAt?: Date | string
     deletedAt?: Date | string | null
-    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
+    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
     detailSpec?: DetailSpecCreateNestedOneWithoutMachineBasicSpecInput
     filmSpec?: FilmSpecCreateNestedOneWithoutMachineBasicSpecInput
-    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
-    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
-    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
-    centerMetalSpec?: CenterMetalSpecCreateNestedOneWithoutMachineBasicSpecInput
+    kuwaeSpec?: KuwaeSpecCreateNestedOneWithoutMachineBasicSpecInput
     nickSpec?: NickSpecCreateNestedOneWithoutMachineBasicSpecInput
+    ruleSpec?: RuleSpecCreateNestedOneWithoutMachineBasicSpecInput
     ruleThicknessSpec?: RuleThicknessSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sheetBaseSpec?: SheetBaseSpecCreateNestedOneWithoutMachineBasicSpecInput
+    spongeCorkSpec?: SpongeCorkSpecCreateNestedOneWithoutMachineBasicSpecInput
+    sutebaSpec?: SutebaSpecCreateNestedOneWithoutMachineBasicSpecInput
   }
 
   export type MachineBasicSpecUncheckedCreateWithoutRemarkSpecInput = {
@@ -23856,16 +23856,16 @@ export namespace Prisma {
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
     deletedAt?: NullableDateTimeFieldUpdateOperationsInput | Date | string | null
-    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
     detailSpec?: DetailSpecUpdateOneWithoutMachineBasicSpecNestedInput
     filmSpec?: FilmSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
-    centerMetalSpec?: CenterMetalSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    kuwaeSpec?: KuwaeSpecUpdateOneWithoutMachineBasicSpecNestedInput
     nickSpec?: NickSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    ruleSpec?: RuleSpecUpdateOneWithoutMachineBasicSpecNestedInput
     ruleThicknessSpec?: RuleThicknessSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sheetBaseSpec?: SheetBaseSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    spongeCorkSpec?: SpongeCorkSpecUpdateOneWithoutMachineBasicSpecNestedInput
+    sutebaSpec?: SutebaSpecUpdateOneWithoutMachineBasicSpecNestedInput
   }
 
   export type MachineBasicSpecUncheckedUpdateWithoutRemarkSpecInput = {
