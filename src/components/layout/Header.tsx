@@ -9,9 +9,7 @@ import {
   Typography,
   Menu,
   Container,
-  Avatar,
   Button,
-  Tooltip,
   MenuItem,
   useScrollTrigger,
   Slide,
@@ -217,7 +215,7 @@ export default function Header() {
 
             {/* ユーザーメニュー */}
             <Box sx={{ flexGrow: 0 }}>
-              <Tooltip title="設定を開く">
+              {/* <Tooltip title="設定を開く">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                   <Avatar
                     alt="User"
@@ -259,7 +257,7 @@ export default function Header() {
                     <Typography textAlign="center">{setting.name}</Typography>
                   </MenuItem>
                 ))}
-              </Menu>
+              </Menu> */}
             </Box>
           </Toolbar>
         </Container>
